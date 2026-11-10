@@ -6,6 +6,7 @@ public class Saglik : MonoBehaviour
     [SerializeField] private int enCokCan = 100;
 
     public int Can { get; private set; }
+    public int EnCokCan => enCokCan;
     public event System.Action<int, int> CanDegisti;   // (kalan, en çok)
     public event System.Action Oldu;
 
