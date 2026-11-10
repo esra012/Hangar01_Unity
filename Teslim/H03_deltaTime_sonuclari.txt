@@ -1,0 +1,6 @@
+deltaTime deneyi (mesafe 50 m)
+deltaTime YOK, hedef 30 FPS (ölçülen ~30 FPS): 8,36 s
+deltaTime YOK, hedef 144 FPS (ölçülen ~141 FPS): 1,77 s
+deltaTime VAR, hedef 30 FPS (ölçülen ~30 FPS): 4,20 s
+deltaTime VAR, hedef 144 FPS (ölçülen ~142 FPS): 4,17 s
+Sonuç: deltaTime yokken süre kare hızına bağlı; varken iki kare hızında da ~4,17 s.

@@ -1,0 +1,268 @@
+{
+    "name": "Ucus",
+    "maps": [
+        {
+            "name": "Ucus",
+            "id": "af329aa7-9d97-4b38-8027-e0e0515410ae",
+            "actions": [
+                {
+                    "name": "Yunuslama",
+                    "type": "Value",
+                    "id": "876d2460-02d6-4d5c-9abe-a18375b6d4ec",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Yatis",
+                    "type": "Value",
+                    "id": "e8c00a41-6923-4218-a40b-777e2cfe4e72",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Sapma",
+                    "type": "Value",
+                    "id": "a0ba9315-f80d-47bf-a837-95ed81ca0eaa",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Gaz",
+                    "type": "Value",
+                    "id": "7cc6f697-74a2-4ed6-b7e7-98c98b76b0b2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "HasarTest",
+                    "type": "Button",
+                    "id": "ed40440e-0984-4857-95de-2fd935e449a8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "S/W",
+                    "id": "219171aa-6c39-4ae0-b154-675c1ea94996",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yunuslama",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3c0a015f-5d0c-4c4b-9773-bd148d1af8a8",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yunuslama",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "beb44c56-3a43-42c1-909c-300e60af7663",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yunuslama",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "9203d5cb-08e6-4733-869c-f76200c703c7",
+                    "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "axisDeadzone(min=0.15)",
+                    "groups": "",
+                    "action": "Yunuslama",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "A/D",
+                    "id": "8b62f502-6623-4668-a83c-437fefcb012f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yatis",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "eeaf8fe0-71a0-4cb8-af54-b219c77ef3e7",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yatis",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "311015cb-614f-4a8b-9442-560443ef878d",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Yatis",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "077f1803-dcdb-429f-80da-3407e80fc62b",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "axisDeadzone(min=0.15)",
+                    "groups": "",
+                    "action": "Yatis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Q/E",
+                    "id": "de237738-ebf8-4434-9b6c-d1d669f30c86",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sapma",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "0a687a16-25bc-4b4e-8f69-b51b3ba432b3",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sapma",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "4871b47f-54e8-46f5-a18c-0bc5ee540634",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sapma",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "LB/RB",
+                    "id": "1cab153a-ed07-4d04-b17e-096e47cfcfb4",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sapma",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "47cbc6df-8999-4b2b-bfa5-ce7b762fba8a",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sapma",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "55d37213-f10c-4569-bfcf-eb179e7f37de",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sapma",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Asagi/Yukari",
+                    "id": "28488c04-8ee8-4423-a437-6b7b4ab97532",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gaz",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ff013075-b572-4270-85ba-4db52173010f",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gaz",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "6f651590-6ec6-4bee-a026-300ab8907477",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gaz",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "1014e012-9c03-47a4-b93d-2dd5b58c92ab",
+                    "path": "<Gamepad>/rightStick/y",
+                    "interactions": "",
+                    "processors": "axisDeadzone(min=0.15)",
+                    "groups": "",
+                    "action": "Gaz",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d6add4fc-c046-4c6d-b580-40c5a5bb1faa",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HasarTest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
