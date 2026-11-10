@@ -8,7 +8,7 @@ Yan hedef sonrası: puan=125, yan=1/2, kalan ana=2
    döküm: Üsse dönüş = 30
    döküm: Hasarsız dönüş = 40
 Çakılma testi: çarptı mı=True, neden='zemine çarptın', görev başarısız=True
-2,5 sn sonra sahne baştan: çarptı mı=False, faz=Yerde, puan=0, süre=149 s
+2,5 sn sonra sahne baştan: çarptı mı=False, faz=Yerde, puan=0, süre=150 s
 Yumuşak iniş testi: faz=Yerde, çarptı mı=False
 Süre testi: başarısız=True, kalan süre=0,0
 Süre dolduktan sonra sahne baştan: başarısız=False, süre=148 s

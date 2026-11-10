@@ -77,6 +77,7 @@ public class UcusHUD : MonoBehaviour
     private void OnGUI()
     {
         if (ucak == null) return;
+        if (gorev != null && gorev.GorevTamam) return;   // görev sonu ekranı tek başına görünsün
         if (kam == null) kam = Camera.main;
         if (stil == null) stil = new GUIStyle(GUI.skin.label) { alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold };
 

@@ -29,6 +29,7 @@ public class GorevSonuEkrani : MonoBehaviour
     private void OnGUI()
     {
         if (!gorunur) return;
+        GUI.depth = -10;   // HUD'un üstünde çizilsin
 
         float s = Screen.height / 1080f;
         Matrix4x4 eski = GUI.matrix;
@@ -50,7 +51,9 @@ public class GorevSonuEkrani : MonoBehaviour
         if (puanTablosu != null) GUI.DrawTexture(kagit, puanTablosu);
         else GUI.Box(kagit, "");
 
-        GUI.Label(new Rect(kagit.x, kagit.y + 150f * k, kagit.width, 60f), "SORTIE TAMAM", baslik);
+        // Başlık soldan başlar: sağ üstteki mühür halkasıyla çakışmasın
+        baslik.alignment = TextAnchor.MiddleLeft;
+        GUI.Label(new Rect(kagit.x + SolX * k, kagit.y + 200f * k, (BolmeX - SolX) * k, 60f), "SORTIE TAMAM", baslik);
 
         // 6 satır: döküm kalemleri + son satırda toplam
         var dokum = cuzdan != null ? cuzdan.Dokum : null;
